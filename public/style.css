@@ -1,0 +1,40 @@
+* {
+  font-family: Roboto;
+}
+h1,
+p {
+  margin: 0;
+}
+.cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(620px, 1fr));
+  padding: 2rem;
+}
+#sr {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+h2 {
+  border-left: 5px solid royalblue;
+  padding-left: 1rem;
+}
+.dd {
+  border-radius: 7px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 0.5rem 1rem;
+  margin-block-end: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dd p {
+  max-width: 65%;
+}
+input {
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem;
+}
+section {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
